@@ -1,0 +1,2 @@
+file2
+Text from Alice in file2
