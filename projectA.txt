@@ -1,0 +1,2 @@
+projectA
+"Initial commit for project A."

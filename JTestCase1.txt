@@ -1,0 +1,35 @@
+friendadd admin  
+viewby admin  
+friendadd user1 
+friendadd user2
+friendadd user3
+friendadd user4
+listadd engineers 
+listadd designers 
+listadd interns  
+friendlist user1 engineers  
+friendlist user2 engineers  
+friendlist user3 designers  
+logout  
+viewby user1  
+postpicture projectA  
+writecomments projectA "Initial commit for project A."  
+logout  
+viewby user2  
+writecomments projectA "Looks great!"    
+chlst projectA engineers  
+writecomments projectA "Now I can comment!"  
+postpicture projectB  
+chlst projectB designers  
+logout  
+viewby user3  
+writecomments projectB "Adding design changes."  
+readcomments projectA  
+logout  
+viewby admin  
+chown projectA user1  
+chown projectB user3  
+chmod projectA rw rw r-  
+friendlist user4 engineers  
+logout  
+end

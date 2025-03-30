@@ -1,0 +1,41 @@
+friendadd admin
+friendadd noadd
+viewby admin
+friendadd thisnamewillbetoolongtobeadded12345678910
+friendadd cantuse:
+friendadd jacob
+friendadd David
+friendadd Kosinski
+listadd list1
+listadd list2
+friendlist jacob list1
+friendlist dave list1
+friendlist David list2
+friendlist Kosinski list2
+postpicture post1
+fakecommand post2
+chlst post1 list1
+chmod post1 rw r- --
+chown post1 David
+logout
+viewby jacob
+postpicture post2
+writecomments post2 "Jacob posting on picture2"
+chlst post2 list1
+writecomments post1 "This comment shouldn't write"
+friendadd fake
+logout
+viewby admin
+chlst post2 list2
+chmod post2 -- r- --
+logout
+viewby Kosinski 
+readcomments post2
+postpicture post3
+writecomments post3 "Kosinski comment on post 3"
+logout
+viewby David
+writecomments post1 "David comment on post 1"
+readcomments post1
+logout 
+end

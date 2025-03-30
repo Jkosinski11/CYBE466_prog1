@@ -1,26 +1,49 @@
-You do not have permission to execute this command
-root added to friends
-Viewing by root
-alice added to friends
-bob added to friends
-students successfully created
-alice added to students
-bob added to students
-tom added to friends
-root succesfully logged out
-Viewing by alice
-alice commented Text from Alice in file1 on file1.txt 
-alice commented Text from Alice in file2 on file2.txt 
-file2.txt succesfully added to students
-alice succesfully logged out
-Viewing by tom
-You do not have the appropriate permissions to view this postyou do not have appropriate permissions to comment on this post
-Viewing by bob
-bob succesfully logged out
-Viewing by bob
-you do not have appropriate permissions to comment on this post
-You do not have the appropriate permissions to view this postbob succesfully logged out
-Viewing by root
-root succesfully logged out
-Viewing by tom
-tom succesfully logged out
+admin logged in as profile owner.
+admin added to friends.
+You do not have permission to execute this command.
+admin viewing profile.
+thisnamewillbetoolongtobeadded12345678910 is too long
+cantuse: added to friends.
+jacob added to friends.
+David added to friends.
+Kosinski added to friends.
+list1 successfully created.
+list2 successfully created.
+jacob added to list1.
+dave not found.
+David added to list2.
+Kosinski added to list2.
+admin posted post1.
+post1 succesfully added to list1.
+post1 permissions changed to  rw r- --.
+David is now the owner of post1.
+admin succesfully logged out
+jacob viewing profile.
+jacob posted post2.
+jacob commented "Jacob posting on picture2" on post2.
+post2 succesfully added to list1.
+jacob does not have the permissions to comment on post1
+You do not have permission to execute this command.
+jacob succesfully logged out
+admin viewing profile.
+post2 succesfully added to list2.
+post2 permissions changed to  -- r- --.
+admin succesfully logged out
+Kosinski viewing profile.
+post2
+
+Comments:
+"Jacob posting on picture2"
+
+Kosinski posted post3.
+Kosinski commented "Kosinski comment on post 3" on post3.
+Kosinski succesfully logged out
+David viewing profile.
+David commented "David comment on post 1" on post1.
+post1
+
+Comments:
+"David comment on post 1"
+
+David succesfully logged out
+System turned off...

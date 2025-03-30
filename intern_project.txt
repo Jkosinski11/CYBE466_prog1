@@ -1,0 +1,4 @@
+intern_project
+"Intern project started!"
+"Nice work!"
+"Now I can comment!"

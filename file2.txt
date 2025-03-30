@@ -1,2 +1,4 @@
 file2
 Text from Alice in file2
+Text from Tom in file2
+Text from Bob in file2
